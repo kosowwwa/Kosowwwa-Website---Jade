@@ -257,6 +257,18 @@ footer hr {
   background-color: rgba(0,0,0,0.1);
   outline: none;
 }
+footer .socialIconsFooter img {
+  width: 40px;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+  margin-right: 10px;
+}
+footer .socialIconsFooter img:hover {
+  opacity: 1;
+}
+footer .socialIconsFooter li {
+  display: inline-block;
+}
 .copyright {
   width: 100%;
   background: #e5e5e5;
