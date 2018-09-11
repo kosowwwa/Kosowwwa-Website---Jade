@@ -1,18 +1,5 @@
 .hero
-    nav.transparent.noshadow
-       .nav-wrapper.container
-            a(href="index.html", class="brand-logo")
-                img(src="assets/img/kosowwwa_white.svg", alt="Kosowwwa Logo")
-            ul(id="nav-mobile", class="right hide-on-med-and-down")
-                li
-                    a(href="#") Portfolio
-                li
-                    a(href="#") Services
-                li
-                    a(href="#") Contact
-                li
-                    a(href="#", class="login-btn")
-                        span Log In
+    include nav.jade
     .container.heroContainer
         .row
             .col.s12.m7.l7
@@ -33,3 +20,4 @@
                 .slideThree
                     i(class="material-icons") help_outline
                     p Dedicated team of monkeys to make sure everything is up and running all the time. Reach our support 24/7.
+                    br
