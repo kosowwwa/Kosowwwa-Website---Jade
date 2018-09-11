@@ -2,6 +2,9 @@ $primaryColor = #d1a74f;
 $primaryBlue = #1e51a4;
 $primaryGray = #9d9d9d;
 
+body
+    font-family "Rubik", sans-serif
+
 .noshadow
     box-shadow none
 
@@ -248,7 +251,7 @@ footer
     font-family "Rubik", sans-serif
 
 .servicesBg
-    background-image url('https://images.unsplash.com/photo-1508834948694-2011e9c69c17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3055c8abf89ac4eda4f946703fc832ab&dpr=1&auto=format&q=80&cs=tinysrgb')
+    background-image url('../assets/img/rawpixel-423665-unsplash.jpg')
     background-size cover
     background-repeat no-repeat
     width 100%
@@ -312,6 +315,78 @@ footer
                 font-family "Rubik",sans-serif
                 font-weight 100
                 color white
-            h5
+            p
                 font-family "Rubik",sans-serif
-                color white
+                color rgba(255,255,255,.7)
+            .xDivider
+                width 80px
+                height 5px
+                background-color $primaryColor
+.p120-0
+    padding 80px 0
+
+.services
+    margin-top 80px
+    h5
+        text-align center
+        color $primaryGray
+        min-height 55px
+    p
+        text-align center
+        min-height 160px
+    .p120-0
+        .col
+            border-right 1px solid rgba(0,0,0,.2)
+            padding 80px 50px
+            transition all .5s ease-in-out
+            &:hover
+                img
+                    opacity 1
+            img
+                display block
+                margin auto
+                width 25%
+                height auto
+                position relative
+                opacity .5
+                &:after
+                    content ""
+                    position absolute
+                    top 0
+                    left 0
+                    width 100%
+                    height 100%
+                    background-color red
+        .col:nth-last-child(1)
+            border-right none
+            border-top 1px solid rgba(0,0,0,.2)
+        .col:nth-last-child(2)
+            border-top 1px solid rgba(0,0,0,.2)
+        .col:nth-last-child(3)
+            border-top 1px solid rgba(0,0,0,.2)
+        .col:nth-last-child(4)
+            border-right none
+            border-top 1px solid rgba(0,0,0,.2)
+        .col:nth-last-child(5)
+            border-top 1px solid rgba(0,0,0,.2)
+        .col:nth-last-child(6)
+            border-top 1px solid rgba(0,0,0,.2)
+        .col:nth-last-child(7)
+            border-right none
+        .sr-btn
+            background-color $primaryGray
+            border-radius 30px
+            padding 15px 35px
+            text-transform uppercase
+            font-family "Rubik", sans-serif
+            letter-spacing 3px
+            font-size 0.8em
+            color #fff
+            box-shadow 0 10px 35px rgba(0,0,0,0.3)
+            transition all 0.3s
+            display block
+            margin auto
+            width 60%
+            text-align center !important
+            &:hover
+                background-color $primaryColor
