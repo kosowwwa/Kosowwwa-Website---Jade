@@ -391,6 +391,8 @@ footer .socialIconsFooter li {
 .services p {
   text-align: center;
   min-height: 160px;
+  opacity: 0.6;
+  padding-bottom: 40px;
 }
 .services .p120-0 .col {
   border-right: 1px solid rgba(0,0,0,0.2);
@@ -402,6 +404,9 @@ footer .socialIconsFooter li {
 }
 .services .p120-0 .col:hover h5 {
   color: #1e51a4;
+}
+.services .p120-0 .col:hover p {
+  opacity: 1;
 }
 .services .p120-0 .col img {
   display: block;
