@@ -400,6 +400,9 @@ footer .socialIconsFooter li {
 .services .p120-0 .col:hover img {
   opacity: 1;
 }
+.services .p120-0 .col:hover h5 {
+  color: #1e51a4;
+}
 .services .p120-0 .col img {
   display: block;
   margin: auto;
