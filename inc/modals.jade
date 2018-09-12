@@ -165,3 +165,52 @@
 
     .modal-footer
         a.modal-close.waves-effect.waves-dark.btn-flat(href="#!") Close
+
+// Modal of Digital Marketing
+#modalDigitalMarketing.modal.modal-fixed-footer
+    .modal-content
+        h4 Digital Marketing
+        h5 Full Service Digital Marketing Agency
+        p A gorgeous website is of no use if no one sees it. Marketing to a targeted audience and nurturing those visitors through the buyers' journey is the easiest, fastest way to get leads you can convert into customers.
+        p Working with The Creative Momentum gives you access to leaders in the modern digital marketing space – with proven results. Our team is even capable of a managing a new product rollout, a brand refresh and coordinating tradeshows, conferences or other business events.
+        p We keep a strong team in-house because the best service is full-service. Our Marketing Managers invest their time and are passionate about the products, people and services they represent. Businesses invest in us because we invest in their success.
+        |
+        |
+        |
+        |
+        b Our Marketing Menu
+        - digitalmarketinglist = ["Social Media Marketing","Email Marketing","Product Marketing","Content Audit and Strategy","SEO & Navigation Best Practices","PR & Communications","Brand Strategy","Launch Strategy","Sales & General Presentations","Migration Strategy","Conference Planning","Business Events","Product Rollout","Campaign Planning"]
+        ul
+            each item in digitalmarketinglist
+                li
+                    = item
+        |
+        |
+        |
+        |
+        b Marketing Software Management
+        - digitalmarketingXlist = ["Total management of any marketing software program, including HubSpot, Pardot, Marketo, and more","We will eliminate Junk leads","Automate the consolidation of duplicates within your CRM","Objective Lead Qualification","Automated Lead Management","Dynamic List Segmentation","Closed Loop Campaign ROI Reportings"]
+        ul
+            each item in digitalmarketingXlist
+                li
+                    = item
+        |
+        |
+        |
+        |
+        b Campaign Management
+        p.  We Give You Increased Visibility
+            Have a 360 Degree View of Marketing Interactions
+            Daily & Real Time Sales Alerts
+        p.  We Implement Advanced Marketing Functionality
+            Prospect nurturing / drip marketing based on Solution Selling
+        p.  Objective Lead Qualification
+            Lead qualification based upon objective criteria like explicit and implicit criteria
+        p.  Capturing Prospect Intent
+            Site search captures intent of prospect
+        p.  Keeping the Overall Cost Per Prospect (CPO) Low
+            Personalized “drip” email campaigns keep your organization top of mind with Prospects and tailor the message based upon prospect behavior
+        p.  Anonymous Visitors are great for Lead Generation
+            We capture anonymous visitors, which can generate you leads
+    .modal-footer
+        a.modal-close.waves-effect.waves-dark.btn-flat(href="#!") Close
