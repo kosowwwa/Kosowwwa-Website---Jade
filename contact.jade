@@ -1,0 +1,27 @@
+doctype
+html(lang="EN")
+    head
+        include inc/vars.jade
+        title #{contactTitle} - Kosowwwa Digital Agency
+        include inc/meta.jade
+        include inc/styles.jade
+    body
+        include inc/contactHero.jade
+        .p120-0
+        .container.contactDetails
+            .row
+                .col.s12.m4.l4.hoverable.waves-effect.waves-dark
+                    img(src="assets/img/email.svg", alt="Email Icon")
+                    h2 E-Mail Us
+                    h5 support@kosowwwa.com
+                .col.s12.m4.l4.hoverable.waves-effect.waves-dark
+                    img(src="assets/img/chat.svg", alt="Chat Icon")
+                    h2 Live Chat
+                    h5 Launch Live Chat
+                .col.s12.m4.l4.hoverable.waves-effect.waves-dark
+                    img(src="assets/img/laptop.svg", alt="Support Icon")
+                    h2 Support Desk
+                    h5 Go to Support Desk
+        .p120-0
+        include inc/domainHosting.jade
+        include inc/footer.jade

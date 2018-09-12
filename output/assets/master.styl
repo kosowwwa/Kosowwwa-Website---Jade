@@ -250,7 +250,8 @@ footer
     text-align center
     color #666
     font-family "Rubik", sans-serif
-
+.contactBg
+    background-image url('../assets/img/alvaro-reyes-500037-unsplash.jpg') !important
 .servicesBg
     background-image url('../assets/img/rawpixel-423665-unsplash.jpg')
     background-size cover
@@ -397,3 +398,32 @@ footer
             text-align center !important
             &:hover
                 background-color $primaryColor
+
+.dhGrid
+    display grid
+    grid-template-columns repeat(2, 1fr)
+    div
+        text-align center
+        padding 100px 0
+        font-family "Rubik", sans-serif
+        img
+            display block
+            margin auto
+            width auto
+            height 80px
+    .domain
+        background-color $primaryBlue
+        color white
+    .hosting
+        background-color $primaryColor
+
+.contactDetails
+    .col
+        text-align center
+        padding 80px 20px
+    img
+        width auto
+        height 80px
+        opacity .4
+    h5
+        color $primaryGray

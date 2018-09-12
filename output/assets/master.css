@@ -297,6 +297,9 @@ footer .socialIconsFooter li {
   color: #666;
   font-family: "Rubik", sans-serif;
 }
+.contactBg {
+  background-image: url("../assets/img/alvaro-reyes-500037-unsplash.jpg") !important;
+}
 .servicesBg {
   background-image: url("../assets/img/rawpixel-423665-unsplash.jpg");
   background-size: cover;
@@ -467,4 +470,38 @@ footer .socialIconsFooter li {
 }
 .services .p120-0 .sr-btn:hover {
   background-color: #d1a74f;
+}
+.dhGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.dhGrid div {
+  text-align: center;
+  padding: 100px 0;
+  font-family: "Rubik", sans-serif;
+}
+.dhGrid div img {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 80px;
+}
+.dhGrid .domain {
+  background-color: #1e51a4;
+  color: #fff;
+}
+.dhGrid .hosting {
+  background-color: #d1a74f;
+}
+.contactDetails .col {
+  text-align: center;
+  padding: 80px 20px;
+}
+.contactDetails img {
+  width: auto;
+  height: 80px;
+  opacity: 0.4;
+}
+.contactDetails h5 {
+  color: #9d9d9d;
 }
