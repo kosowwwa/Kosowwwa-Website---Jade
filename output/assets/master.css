@@ -502,6 +502,31 @@ footer .socialIconsFooter li {
   height: 80px;
   opacity: 0.4;
 }
+.contactDetails h2 {
+  font-weight: 100;
+  color: #343434;
+}
 .contactDetails h5 {
   color: #9d9d9d;
+  font-weight: lighter;
+}
+.modal {
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+.modal h4 {
+  color: #1e51a4;
+}
+.modal p,
+.modal li {
+  color: #9d9d9d;
+}
+.modal-content {
+  padding: 5% 10% 20% 10% !important;
+}
+.modal-footer {
+  text-align: center !important;
+  background-color: #d1a74f !important;
 }

@@ -19,4 +19,10 @@ $( document ).ready(function() {
         $('.slideTwo').css('border-bottom', '5px solid transparent');
         $('.slideOne').css('border-bottom', '5px solid transparent');
     })
+
+    $('.modal').modal({
+        inDuration: 100,
+        outDuration: 100
+    });
 });
+
